@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(blue, red);
+    font-size: 18px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: tomato;
+    background-color: #555555;
+}
+#main-header{
+    position: fixed;
+    top: 0;
+    left:0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    min-height: 70px;
+   
+
+}
+#title{
+    font-size: 30px;
+    padding-top: 10px;
+    margin:0;
+}
+#sub-sub-header{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+
+}
+#follower{
+    background-color: #555555;
+}
+
+.navbar{
+  position: absolute;
+  right:50px;
+  top:0;
+    
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    border:2px solid #555555;
+    margin-left: 10px;
+    padding:10px;
+    background-color: #555555;
+}
+#heart{
+    background-color: black;
+    
+}
+#green-background{
+    background-color: rgb(24, 202, 54);
+}
+#title-2{
+    margin-top: 100px;
+    font-size: 40px;
+    color:white;
+    text-align: center;
+}
+#description{
+    font-size: 25px;
+    color:white;
+    text-align: center;
+}
+
+.form{
+    width: 50%;
+    margin: auto;
+    background: rgb(15, 14, 71);
+    color: white;
+    padding:30px;
+}
+.form .size{
+    width: 100%;
+    height:30px;
+    margin: 10px 0 10px 0;
+    
+}
+#name-label,
+#email-label,
+#number-label{
+    font-size: 20px;
+}
+.row-gaps{
+    text-transform: capitalize;
+    display: grid;
+    grid-column-gap:2px;
+}
+.para-size{
+    font-size: 20px;
+}
+#submit{
+    background-color: green;
+    color: white;
+    font-weight: bold;    
+}
+
+
+    
